@@ -1,0 +1,210 @@
+====  TEST DATA : ==== 
+    STUDENT ID_TEST_RESULT  NAME_TEST_RESULT  ...  K_TEST_RESULT  SCORE_TEST_RESULT
+0                  2024503        Joko Angsa  ...              2                 17
+1                  2024365      Doni Terbang  ...              1                 16
+2                  2023843       Putri Petir  ...              0                 15
+3                  2023826       Sinta Elang  ...              1                 11
+4                  2024283       Agus Kaktus  ...              1                 11
+5                  2023678      Sari Kelinci  ...              0                 10
+6                  2024219        Dian Panah  ...              0                 10
+7                  2024427        Ade Guntur  ...              0                 10
+8                  2023925      Rina Pelangi  ...              2                  7
+9                  2023719  Yuni Lumba-lumba  ...              0                  5
+10                 2023998       Tia Samudra  ...              0                  5
+11                 2024025      Maya Pelangi  ...              0                  5
+12                 2024154       Fandi Badai  ...              0                  5
+13                 2024596      Iwan Galaksi  ...              0                  5
+14                 2024601      Susi Bintang  ...              0                  5
+15                 2023956     Andi Jangkrik  ...              2                  2
+16                 2023182       Dedi Kincir  ...              1                  1
+17                 2023852        Tika Komet  ...              1                  1
+18                 2023590        Dodi Petir  ...              0                  0
+19                 2023659        Dino Ombak  ...              0                  0
+20                 2023712         Yoga Batu  ...              0                  0
+21                 2023810      Desi Bintang  ...              0                  0
+22                 2023921         Nia Petir  ...              0                  0
+23                 2023947        Eka Meteor  ...              0                  0
+24                 2023971     Tuti Serigala  ...              0                  0
+25                 2024138       Wati Nebula  ...              0                  0
+26                 2024450         Ade Bulan  ...              0                  0
+27                 2024487      Bima Harmoni  ...              0                  0
+28                 2024532      Ahmad Meteor  ...              0                  0
+29                 2024694         Aji Kilat  ...              0                  0
+30                 2024187        Bobby Awan  ...              3                 -2
+31                 2024289       Rudi Kereta  ...              2                 -3
+32                 2023764       Lia Samudra  ...              1                 -4
+33                 2024175        Dina Otter  ...              1                 -4
+34                 2024210        Dina Bambu  ...              1                 -4
+35                 2023741    Rina Kupu-kupu  ...              0                 -5
+36                 2023889       Adi Bintang  ...              0                 -5
+37                 2024062        Heri Angin  ...              0                 -5
+38                 2024092      Roni Tornado  ...              0                 -5
+39                 2024103      Yanti Aurora  ...              0                 -5
+40                 2024205      Irfan Nebula  ...              0                 -5
+41                 2024245       Bayu Aurora  ...              0                 -5
+42                 2024376        Dita Hujan  ...              0                 -5
+43                 2024473        Rina Salju  ...              0                 -5
+44                 2024316       Yuli Nebula  ...              3                 -7
+45                 2023548        Rizky Kuda  ...              1                 -9
+46                 2023745         Dito Awan  ...              0                -10
+47                 2023768         Eko Kapal  ...              0                -10
+48                 2023785       Indra Gajah  ...              0                -10
+49                 2024036         Arif Naga  ...              0                -10
+
+[50 rows x 6 columns]
+==== EXPECTED DATA : ==== 
+    STUDENT ID_EXPECTED     NAME_EXPECTED  B_EXPECTED  S_EXPECTED  K_EXPECTED  SCORE_EXPECTED
+0               2024503        Joko Angsa           5           3           2              17
+1               2024365      Doni Terbang           5           4           1              16
+2               2023843       Putri Petir           5           5           0              15
+3               2023826       Sinta Elang           4           5           1              11
+4               2024283       Agus Kaktus           4           5           1              11
+5               2023678      Sari Kelinci           4           6           0              10
+6               2024219        Dian Panah           4           6           0              10
+7               2024427        Ade Guntur           4           6           0              10
+8               2023925      Rina Pelangi           3           5           2               7
+9               2023719  Yuni Lumba-lumba           3           7           0               5
+10              2023998       Tia Samudra           3           7           0               5
+11              2024025      Maya Pelangi           3           7           0               5
+12              2024154       Fandi Badai           3           7           0               5
+13              2024596      Iwan Galaksi           3           7           0               5
+14              2024601      Susi Bintang           3           7           0               5
+15              2023956     Andi Jangkrik           2           6           2               2
+16              2023182       Dedi Kincir           2           7           1               1
+17              2023852        Tika Komet           2           7           1               1
+18              2023590        Dodi Petir           2           8           0               0
+19              2023659        Dino Ombak           2           8           0               0
+20              2023712         Yoga Batu           2           8           0               0
+21              2023810      Desi Bintang           2           8           0               0
+22              2023921         Nia Petir           2           8           0               0
+23              2023947        Eka Meteor           2           8           0               0
+24              2023971     Tuti Serigala           2           8           0               0
+25              2024138       Wati Nebula           2           8           0               0
+26              2024450         Ade Bulan           2           8           0               0
+27              2024487      Bima Harmoni           2           8           0               0
+28              2024532      Ahmad Meteor           2           8           0               0
+29              2024694         Aji Kilat           2           8           0               0
+30              2024187        Bobby Awan           1           6           3              -2
+31              2024289       Rudi Kereta           1           7           2              -3
+32              2023764       Lia Samudra           1           8           1              -4
+33              2024175        Dina Otter           1           8           1              -4
+34              2024210        Dina Bambu           1           8           1              -4
+35              2023741    Rina Kupu-kupu           1           9           0              -5
+36              2023889       Adi Bintang           1           9           0              -5
+37              2024062        Heri Angin           1           9           0              -5
+38              2024092      Roni Tornado           1           9           0              -5
+39              2024103      Yanti Aurora           1           9           0              -5
+40              2024205      Irfan Nebula           1           9           0              -5
+41              2024245       Bayu Aurora           1           9           0              -5
+42              2024376        Dita Hujan           1           9           0              -5
+43              2024473        Rina Salju           1           9           0              -5
+44              2024316       Yuli Nebula           0           7           3              -7
+45              2023548        Rizky Kuda           0           9           1              -9
+46              2023745         Dito Awan           0          10           0             -10
+47              2023768         Eko Kapal           0          10           0             -10
+48              2023785       Indra Gajah           0          10           0             -10
+49              2024036         Arif Naga           0          10           0             -10
+==== PASS TEST POINT : ==== 
+    0
+0   5
+1   5
+2   5
+3   5
+4   5
+5   5
+6   5
+7   5
+8   5
+9   5
+10  5
+11  5
+12  5
+13  5
+14  5
+15  5
+16  5
+17  5
+18  5
+19  5
+20  5
+21  5
+22  5
+23  5
+24  5
+25  5
+26  5
+27  5
+28  5
+29  5
+30  5
+31  5
+32  5
+33  5
+34  5
+35  5
+36  5
+37  5
+38  5
+39  5
+40  5
+41  5
+42  5
+43  5
+44  5
+45  5
+46  5
+47  5
+48  5
+49  5
+==== PASS TEST STATUS : ==== 
+     0
+0   OK
+1   OK
+2   OK
+3   OK
+4   OK
+5   OK
+6   OK
+7   OK
+8   OK
+9   OK
+10  OK
+11  OK
+12  OK
+13  OK
+14  OK
+15  OK
+16  OK
+17  OK
+18  OK
+19  OK
+20  OK
+21  OK
+22  OK
+23  OK
+24  OK
+25  OK
+26  OK
+27  OK
+28  OK
+29  OK
+30  OK
+31  OK
+32  OK
+33  OK
+34  OK
+35  OK
+36  OK
+37  OK
+38  OK
+39  OK
+40  OK
+41  OK
+42  OK
+43  OK
+44  OK
+45  OK
+46  OK
+47  OK
+48  OK
+49  OK
